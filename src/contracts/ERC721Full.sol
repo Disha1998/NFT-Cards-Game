@@ -967,10 +967,7 @@ contract ERC721Metadata is ERC165, ERC721, IERC721Metadata {
 // File: @openzeppelin/contracts/token/ERC721/ERC721Full.sol
 
 pragma solidity ^0.5.0;
-
-
-
-
+ 
 /**
  * @title Full ERC721 Token
  * This implementation includes all the required and some optional functionality of the ERC721 standard
@@ -978,7 +975,7 @@ pragma solidity ^0.5.0;
  * @dev see https://eips.ethereum.org/EIPS/eip-721
  */
 contract ERC721Full is ERC721, ERC721Enumerable, ERC721Metadata {
-    constructor (string memory name, string memory symbol) public ERC721Metadata(name, symbol) {
+     constructor (string memory name, string memory symbol) public ERC721Metadata(name, symbol) {
         // solhint-disable-previous-line no-empty-blocks
     }
 }
